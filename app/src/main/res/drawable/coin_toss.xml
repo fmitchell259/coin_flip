@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/flip_0"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_1"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_2"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_3"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_4"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_5"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_6"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_7"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_8"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_9"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_10"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_11"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_12"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_13"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_14"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_15"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_16"
+        android:duration="100"/>
+    <item android:drawable="@drawable/flip_17"
+        android:duration="100"/>
+
+</animation-list>
