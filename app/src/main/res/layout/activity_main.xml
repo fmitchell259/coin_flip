@@ -10,13 +10,47 @@
         android:id="@+id/coin_animation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
         android:contentDescription="@string/coin_anim_desc"
         app:srcCompat="@drawable/flip_0" />
 
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="544dp"
+        android:layout_alignEnd="@+id/coin_animation"
+        android:layout_alignRight="@+id/coin_animation"
+        android:layout_alignBottom="@+id/coin_animation"
+        android:layout_centerInParent="false"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="113dp"
+        android:contentDescription="@string/result_image_descrip"
+        android:scaleType="centerCrop"
+        app:srcCompat="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@+id/coin_animation"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:text="@string/title"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
     <Button
         android:id="@+id/button"
-        android:layout_width="201dp"
-        android:layout_height="161dp"
+        android:layout_width="216dp"
+        android:layout_height="186dp"
         android:layout_alignBottom="@+id/coin_animation"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
@@ -24,19 +58,6 @@
         android:layout_marginRight="104dp"
         android:layout_marginBottom="325dp"
         android:background="@android:color/transparent" />
-
-    <ImageView
-        android:id="@+id/result"
-        android:layout_width="319dp"
-        android:layout_height="315dp"
-        android:layout_alignEnd="@+id/coin_animation"
-        android:layout_alignRight="@+id/coin_animation"
-        android:layout_alignBottom="@+id/coin_animation"
-        android:layout_marginEnd="49dp"
-        android:layout_marginRight="49dp"
-        android:layout_marginBottom="251dp"
-        android:contentDescription="@string/result_image_descrip"
-        app:srcCompat="@android:color/transparent" />
 
 
 </RelativeLayout>
