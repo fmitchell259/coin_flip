@@ -4,4 +4,5 @@
     <string name="coin_anim_desc">coin animation frame</string>
     <string name="result_image_descrip">result image view</string>
     <string name="title">Frankies Coin Flip</string>
+    <string name="tune_button">play a tune!</string>
 </resources>
